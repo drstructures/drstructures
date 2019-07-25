@@ -1,0 +1,36 @@
+::selection
+{
+  background: #f7eaa0;
+  color: #000;
+}
+::-moz-selection
+{
+  background: #f7eaa0;
+  color: #000;
+}
+::-webkit-selection
+{
+  background: #f7eaa0;
+  color: #000;
+}
+html,body{
+  font-size: 1.2em;
+}
+//Font Media Sizing
+@media(max-width: 600px)
+{
+  html,body{
+    font-size: 1em;
+  }
+}
+@media(min-width: 1513px)
+{
+  html,body{
+    font-size: 1.5em;
+  }
+}
+
+a{
+  padding-right: 20px;
+  text-decoration: none;
+}
